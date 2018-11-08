@@ -1,0 +1,11 @@
+#container {
+	width: 8rem;; 
+	height: 8rem;	
+}
+
+#onoff {
+	background-color: blue;
+	color: black;
+	padding: 1rem;
+	
+}

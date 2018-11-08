@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2, 
+	"name": "Scrapton",
+	"description": "Chrome extension to replace images on website with images from The Office",
+	"version": "1.0.0",
+	"icons": {"128": "./images/office.png"},
+	"web_accessible_resources": [
+		"*.png",
+		"*.mp3"
+	],
+	"browser_action": {
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"<all_urls>"
+			],
+			"js": ["popup.js"]
+		}
+	],
+	"background": {
+		"scripts": ["background.js"]
+	}
+}

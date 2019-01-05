@@ -1,4 +1,3 @@
-
 chrome.browserAction.onClicked.addListener(clickedButton);
 
 function clickedButton(tab) {
